@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# AI / LLM crawlers - explicitly allowed for AI search & assistant citations
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://scissortaildoor.com/sitemap.xml
